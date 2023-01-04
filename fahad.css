@@ -1,0 +1,228 @@
+body,p,span{
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,a{
+    font-family: 'Rubik', sans-serif;
+}
+
+.banner{
+    background-image: url(fahad9.jpg);
+    padding-bottom: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+}
+.logo1{
+    color: white;
+    margin-top: 14px;
+    margin-left: 70px;
+    font-size: 25px;
+    font-weight: 500;
+    /* font-family: ; */
+}
+.rr{
+    position: relative;
+}
+.black{
+    background-color: rgb(72, 122, 5);
+    color: black;
+    transition: .4s;
+}
+.frow{
+    position: fixed;
+    left: 0;
+    right: 0; 
+    padding-top: 0 !important;
+    z-index: 100;
+}
+
+.header1{
+    display: block;
+    margin-top: 15px;
+}
+.header1 ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly; 
+}
+.header1 ul a{
+    text-decoration: none;
+    color: white;
+}
+.header1 ul a li{
+    transition: .4s;
+    font-size: 20px;
+    
+}
+.header1 ul a li:hover{
+    letter-spacing: .8px;
+    color: tomato;
+}
+.ff {
+    text-align: center;
+    color: white;
+    font-size: 26px;
+}
+.ff2 {
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+.mrow{
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 220px; 
+    z-index: 10;
+}
+.contactbtn{
+    text-align: center;
+    display: block;
+    margin-top: 27px;
+}
+.contactbtn button{
+    padding: 8px 20px;
+    transition: .4s;
+    border: none;
+    border-radius: 10px;
+}
+.contactbtn button:hover{
+    letter-spacing: .8px;
+    color: tomato;
+    background-color: black;
+}
+
+/* boddy */
+.bodysection{
+    padding: 100px 0;
+    background-color:#dfe6e9;
+}
+.ff4{
+    text-align: center;
+    
+}
+.ff6 ul{
+    margin: 0;
+}
+.ff6{
+    
+    padding: 25px 45px;
+    color: black;
+}
+.imgcl{
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    display: block;
+    border-radius: 50%
+}
+.ff11{
+    
+    color: black;
+    padding: 25px 20px;
+}
+.ff12{
+    background-color: white;
+    padding-top: 20px;
+}
+.ff22{
+    text-align: justify;
+    /* text-justify: inter-word; */
+    font-size: 17px;
+
+}
+
+/* Contact form */
+.contact-section{
+    padding: 100px 0;
+}
+.contact-form{
+    height: auto;
+    width: 600px;
+    margin: auto;
+    padding: 50px;
+}
+.form-section{
+    width: 100%;
+}
+.bd0 {
+    padding: 20px 25px;
+    
+    font-size: 20px;
+}
+
+.bd2{
+    padding: 20px 25px;
+    
+    font-size: 20px;
+    width: 100%;
+    height: 180px;
+    
+}
+.nn44{
+    padding: 14px 195px;
+    margin-left: 0px;
+    font-size: 22px;
+}
+
+.nn44:hover{
+    background-color:black;
+    color:#fff;
+    font-weight: 400;
+    transition: .4s;
+}
+
+
+/* footer */
+
+.fottersection{
+    padding-top: 60px;
+    padding-bottom: 20px;
+    background-color: black;
+}
+.ff13{
+    border-right: 1px solid white;
+    color: white;
+}
+.ff14{
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+}
+.ff15{
+    text-decoration: none;
+}
+.ff17{
+    margin-bottom: 15px;
+}
+.ff13 p i{
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+.ff18{
+    color: white;
+    font-size: 25px;
+    margin-left: 29px;
+}
+
+.ff20 ul{
+    list-style: none;
+    display: flex;
+}
+.ff20 ul li{
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+.ff20 ul li a i{
+    color: white;
+    font-size: 25px;
+    transition: .4s;
+}
+.ff20 ul li a i:hover {
+    color: tomato;
+    font-size: 30px;
+}
