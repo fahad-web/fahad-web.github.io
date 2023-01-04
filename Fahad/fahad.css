@@ -63,20 +63,64 @@ h1,h2,h3,h4,h5,h6,a{
     text-align: center;
     color: white;
     font-size: 26px;
+    margin-top: 20px;
 }
 .ff2 {
     text-align: center;
     color: white;
     font-size: 35px;
     font-weight: 600;
+    
+}
+.dd1{
+    box-shadow: rgb(245 50 6) 0px 11px 36px 10px;
+    border: 0px solid white;
+    width: 393px;
+    height: 254px;
+    position: relative;
+}
+.dd1::before{
+    content: "";
+    position: absolute;
+    background: rgb(245 50 6);
+    width: 20px;
+    height: 4px;
+    left: 0;
+    top: -3px;
+    right: 0;
+    animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate{
+    0%{
+        transform: translateX(380px);
+    }
+}
+.dd3::after{
+    content: "";
+    position: absolute;
+    background: rgb(245 50 6);
+    width: 20px;
+    height: 4px;
+    left: 0;
+    top: 250px;
+    right: 0;
+    animation: rotate6 2s linear infinite;
+}
+
+@keyframes rotate6{
+    100%{
+        transform: translateX(380px);
+    }
 }
 .mrow{
     position: absolute;
     content: "";
     left: 0;
     right: 0;
-    top: 220px; 
+    top: 210px; 
     z-index: 10;
+    
 }
 .contactbtn{
     text-align: center;
@@ -96,6 +140,31 @@ h1,h2,h3,h4,h5,h6,a{
 }
 
 /* boddy */
+
+.ff5{
+    position: relative;
+}
+.dd2::before{
+    content: "";
+    position: absolute;
+    background: black;
+    width: 20px;
+    height: 20px;
+    left: 180px;
+    border-radius: 50%;
+    right: 0;
+    top: 141px;
+    text-align: center;
+    animation: rotate2 2s linear infinite;
+}
+@keyframes rotate2{
+    0%{
+        transform: rotate(0deg)translate(-155px)rotate(0deg);
+    }
+    100%{
+        transform: rotate(-360deg)translate(-155px)rotate(360deg);
+    }
+}
 .bodysection{
     padding: 100px 0;
     background-color:#dfe6e9;
