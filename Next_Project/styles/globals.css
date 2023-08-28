@@ -1,0 +1,272 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,p,span{
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,a{
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    background: url("https://static.vecteezy.com/system/resources/thumbnails/019/591/373/original/the-effect-of-a-film-with-scratches-on-a-black-background-free-video.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+
+}
+.text-size-manuali{
+    font-size: 30px !important;
+}
+.h-screen{
+    height: 90vh !important;
+}
+.fullscreenDiv {
+    text-align: center;
+}
+.hh{
+    overflow: hidden;
+    transition-delay: .2s;
+}
+
+.hh2{
+    visibility: hidden;
+    display: inline-block;
+    transition-delay: .2s;
+    display: inline-table;
+    background-color: aliceblue;
+}
+
+.hh:hover .hh2 {
+    visibility: visible; 
+    color: black; 
+}
+.hh:hover{
+    animation: zoom-in 2s ease-in ;
+}
+
+.jj{
+    top: 40px;
+    right: 80px;
+    visibility: hidden;
+    transition-delay: .4s;
+    transform: translateY(-300px);
+    transition: opacity 0.4s cubic-bezier(0.17, 0.67, 0.83, 0.67), transform 0.4s ease, visibility 0.4s;
+}
+.importentt:hover .jj{
+    visibility: visible;
+    transform: translateY(0);
+    transition: opacity 0.4s cubic-bezier(0.83, 0.17, 0.67, 0.67), transform 0.4s ease, visibility 0.4s;
+    
+    
+}
+@keyframes zoom-in {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.1, 1.1);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+}
+
+/* from css log  */
+.formcss{
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 370px;
+    border-radius: 7%;
+    width: 450px;
+    border:  black ;
+    background-color: aliceblue;
+    transition-delay: .1s;
+    box-shadow: 0px 0px 48px 5px rgba(231,27,27,0.63);
+    -webkit-box-shadow: 0px 0px 48px 5px rgba(231,27,27,0.63);
+    -moz-box-shadow: 0px 0px 48px 5px rgba(231,27,27,0.63);
+    
+}
+.formcssmail11{
+    position: absolute;
+    content: "";
+    size: 18px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 490px;
+    border-radius: 3%;
+    text-align: center;
+    width: 450px;
+    border:  black ; 
+    transition-delay: .1s;
+    box-shadow: 0px 0px 48px 5px rgba(231,27,27,0.63);
+    -webkit-box-shadow: 0px 0px 48px 5px rgba(231,27,27,0.63);
+    -moz-box-shadow: 0px 0px 48px 5px rgba(231,27,27,0.63);
+}
+
+.formcsstravelleradd{
+    position: absolute;
+    content: "";
+    size: 18px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 470px;
+    border-radius: 3%;
+    text-align: center;
+    width: 400px;
+    border:  black ;
+    background-color: white;
+    transition-delay: .1s;
+    box-shadow: 0px 0px 48px 5px rgba(231,27,27,0.63);
+    -webkit-box-shadow: 0px 0px 48px 5px rgba(231,27,27,0.63);
+    -moz-box-shadow: 0px 0px 48px 5px rgba(231,27,27,0.63);
+    
+}
+
+.formcssmanageradd22{
+    position: absolute;
+    content: "";
+    size: 18px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 440px;
+    border-radius: 3%;
+    text-align: center;
+    width: 400px;
+    border:  black ;
+    background-color: white;
+    transition-delay: .1s;
+    box-shadow: 0px 0px 48px 5px rgba(231,27,27,0.63);
+    -webkit-box-shadow: 0px 0px 48px 5px rgba(231,27,27,0.63);
+    -moz-box-shadow: 0px 0px 48px 5px rgba(231,27,27,0.63);
+    
+}
+
+.formcssmanageradd{
+    position: absolute;
+    content: "";
+    size: 18px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 390px;
+    border-radius: 3%;
+    text-align: center;
+    width: 400px;
+    border:  black ;
+    background-color: white;
+    transition-delay: .1s;
+    box-shadow: 0px 0px 48px 5px rgba(231,27,27,0.63);
+    -webkit-box-shadow: 0px 0px 48px 5px rgba(231,27,27,0.63);
+    -moz-box-shadow: 0px 0px 48px 5px rgba(231,27,27,0.63);
+    
+}
+.mo{
+    margin-top: 39px !important;
+}
+
+/* from css all  */
+.texts{
+    text-shadow: -1px 4px 13px rgba(0,0,0,.8);
+}
+.bts:hover{
+    background-color: black !important;
+    color: white !important;
+}
+
+/* from css reg  */
+.formcssr{
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 500px;
+    width: 410px;
+    border-radius: 2%;
+    border:  black ;
+    background-color: white;
+    transition-delay: .1s;
+    box-shadow: 0px 0px 48px 5px rgba(231,27,27,0.63);
+    -webkit-box-shadow: 0px 0px 48px 5px rgba(231,27,27,0.63);
+    -moz-box-shadow: 0px 0px 48px 5px rgba(231,27,27,0.63);
+    
+}
+
+.ff02{
+    transition-delay: .1s;
+    box-shadow: 0px 0px 48px 5px rgba(231,27,27,0.63);
+    -webkit-box-shadow: 0px 0px 48px 5px rgba(231,27,27,0.63);
+    -moz-box-shadow: 0px 0px 48px 5px rgba(231,27,27,0.63);
+}
+
+/* manager data card */
+.cardcss{
+    width: 230px;
+    height: auto;
+    color: black;
+    text-align: center;
+    border-radius: 1    0%;
+
+}
+.gf{
+    text-align: -webkit-center;
+
+}
+
+input[type=file] {
+    width: 182px;
+    margin-left: 78px;
+    color: #444;
+    padding: 2px;
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #555;
+  }
+  .tt{
+    background: url("https://img.freepik.com/free-photo/white-paper-texture_1194-5998.jpg");
+    padding: 310px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .tt88:hover{
+    color: white;
+  }
+  .pol{
+    top: 80px !important;
+    height: 580px !important;
+  }
+  .img1{
+    width: auto;
+    height: 96px;
+    box-sizing: border-box;
+  }
+  .rrr{
+    width: 100% !important;
+  }
+  .letters:hover{
+    letter-spacing: 1px;
+    transition: .4s;
+    color: orangered !important;
+  }
+  
