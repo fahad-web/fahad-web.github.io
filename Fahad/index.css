@@ -19,13 +19,16 @@ h1,h2,h3,h4,h5,h6,a{
     margin-left: 70px;
     font-size: 25px;
     font-weight: 500;
-    /* font-family: ; */
+    
+}
+.fontff{
+    font-family: 'Times New Roman', Times, serif;
 }
 .rr{
     position: relative;
 }
 .black{
-    background-color: rgb(72, 122, 5);
+    background-color: blue;
     color: black;
     transition: .4s;
 }
@@ -58,6 +61,7 @@ h1,h2,h3,h4,h5,h6,a{
 .header1 ul a li:hover{
     letter-spacing: .8px;
     color: tomato;
+    text-decoration: underline;
 }
 .ff {
     text-align: center;
@@ -150,12 +154,12 @@ h1,h2,h3,h4,h5,h6,a{
     background: black;
     width: 20px;
     height: 20px;
-    left: 180px;
+    left: 208px;
     border-radius: 50%;
     right: 0;
-    top: 141px;
+    top: 140px;
     text-align: center;
-    animation: rotate2 2s linear infinite;
+    animation: rotate2 5s linear infinite;
 }
 @keyframes rotate2{
     0%{
@@ -171,8 +175,18 @@ h1,h2,h3,h4,h5,h6,a{
 }
 .ff4{
     text-align: center;
-    
+   
 }
+/* .ff4::before{
+    position: absolute;
+    content: "";
+    width: 200px;
+    top: 67px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-bottom: 2px solid black;
+} */
 .ff6 ul{
     margin: 0;
 }
@@ -194,6 +208,7 @@ h1,h2,h3,h4,h5,h6,a{
     padding: 25px 20px;
 }
 .ff12{
+    position: relative;
     background-color: white;
     padding-top: 20px;
 }
@@ -294,4 +309,29 @@ h1,h2,h3,h4,h5,h6,a{
 .ff20 ul li a i:hover {
     color: tomato;
     font-size: 30px;
+}
+
+/* My work  */
+.mywork{
+    background-color: antiquewhite;
+    padding: 90px 0;
+}
+.imgs img{
+    height: auto;
+}
+
+.ff100 {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fahad{
+    height: 100%;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(20, 20, 22, 0.4);
+    transition: all 0.3s;
+    background-color: #fff;
+}
+.fahad:hover{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(20, 20, 22, 0.8);
 }
