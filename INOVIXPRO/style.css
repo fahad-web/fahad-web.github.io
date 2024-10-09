@@ -1,0 +1,355 @@
+
+body {
+    font-family: 'Poppins';
+}
+:root{
+    --font-poppins: "Poppins", sans-serif;
+    --white: #fff;
+    --bg-white: #fff;
+    --Gray-600: #475467;
+    --theme-color: #3edbfe;
+}
+head{
+    display: none;
+}
+
+.headerfile{
+    background-color: black;
+}
+.colorbackground{
+    background-color: #FFFFFF;
+
+}
+.textcolor{
+    color: rgb(71, 84, 103);
+    font-weight: bold;
+    font-size:16px;
+}
+.listsnone{
+    list-style-type: none;
+    text-decoration-line: none;
+}
+.ulhide{
+    text-decoration-line: none;
+}
+.stylbutton{
+    width: 140;
+    height: 50;
+    background-color: aliceblue;
+}
+.bigtext{
+    font-size: 130px;
+    font-weight: 600;
+    color: #161B24;
+    line-height: 163.67px;
+    letter-spacing: 1.3px;
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+    font-style: normal;
+}
+.mtt{
+    margin-top: 60px;
+}
+.letstalk{
+    width: 170px;
+    height: 65px;
+    background-color: #475467;
+    text-align: center;
+    color: #FFFFFF;
+    display: block;
+    font-size: 20px;
+    margin-top: 70px;
+}
+
+.ff{
+    margin-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.ff2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(62, 219, 254);
+    margin-left: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: block;
+}
+.ff3{
+    display: block;
+    margin-top: 15px;
+}
+.ff4{
+    font-weight: bold;
+    color: rgb(71, 84, 103);
+}
+.largmideltext{
+    color: var(--theme-color);
+    font-size: 150px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125.9%;
+    letter-spacing: 1.7px;
+}
+
+.Innovation{
+    width: 437px;
+    color: var(--Gray-600);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25.18px;
+    letter-spacing: .2px;
+}
+.innovation2{
+    color: #161b24;
+    font-size: 130px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 163.67px;
+    letter-spacing: 1.3px;
+}
+.interface{
+    height: 40px;
+    width: 160px;
+    border: 1px solid #475467;
+    display: block;
+    border-radius: 65px;
+    margin-right: 50px;
+}
+.tet{
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 0 !important;
+}
+.mtt{
+    margin-top: 50px;
+}
+.mtt2{
+    margin-top: 115px;
+    margin-bottom: 15px;
+}
+
+.ff6{
+    color: #161b24;
+    
+    font-family: SF Pro;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 590;
+    line-height: normal;
+    letter-spacing: 2px;
+}
+.mcard{
+    display: flex;
+    padding: 40px 64px 178px 65px;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    border-radius: 10px;
+    background: #ebf4fa;
+}
+.stre{
+    color: #161b24;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.squer{
+    width: 23px;
+    height: 23px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid var(--Gray-600);
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: end;
+}
+.hard{
+    align-items: center;
+}
+.mar{
+    margin-left: 30px;
+}
+.singledot{
+    width: 23px;
+    height: 23px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: var(--Gray-600);
+    margin: 72px 0 125px;
+}
+
+.mcardwork{
+    height: 510px;
+    width: 350px;
+    align-items: center;
+    border-radius: 10px;
+    background: rgb(237, 245, 249);
+    gap: 15px;
+}
+.stre2 {
+    color: #161b24;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 19px;
+    padding-left: 24px;
+}
+.allwork{
+    height: 60px;
+    width: 169px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 37px;
+    background: var(--Gray-600);
+    color: var(--white, #fff);
+    font-family: SF Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 590;
+    line-height: 24px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 55px !important;
+} 
+
+.footerup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 112px 173px;
+}
+.vv{
+    padding: 40px 64px;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+    border-radius: 12px;
+    background: #161b24;
+}
+.quote{
+    font-size: 60px;
+    color: rgb(220, 235, 253);
+}
+.bb{
+    color: var(--white);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+}
+.bb2{
+    color: var(--Base-White, var(--white));
+    font-size: 18px;
+    font-style: normal;
+}
+.bb3{
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 4px;
+    color: var(--Base-White, var(--white));
+    font-size: 18px;
+    font-style: normal;
+
+}
+.bb4 {
+    color: #eaecf0;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+    margin-top: -25px;
+}
+.footercolor{
+    width: 100%;
+    height: 588px;
+    flex-shrink: 0;
+    background: #161b24;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.hh1{
+    color: var(--white);
+    font-style: normal;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+    line-height: 100.72px;
+    letter-spacing: .8px;
+    margin-top: 88px;
+    display: flex;
+    margin-bottom: 52px;
+}
+.hh2{
+    display: inline-flex;
+    padding: 24px 57px 24px 58px;
+    flex-shrink: 0;
+    border-radius: 37px;
+    background: var(--theme-color);
+    font-family: SF Pro;
+    font-size: 20px;
+    line-height: 24px;
+    cursor: pointer;
+    margin-bottom: 62px;
+    color: var(--white);
+    font-style: normal;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    height: 65px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hh3{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.hh4{
+    width: calc(100% - 220px);
+    height: 1px;
+    background: rgba(62, 219, 254, .14);
+    margin: 45px 0;
+    display: block;
+}
+.hh5{
+    width: calc(100% - 156px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 32px;
+}
+.hh6{
+    color: #b9ecf7;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.hh7{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+}
+
+.jj1{
+    font-size: 30px;
+    color: #b9ecf7;
+}
